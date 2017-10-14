@@ -441,8 +441,6 @@ exports.thumbnail = function(options) {
 	    args.push('-auto-orient')
 	    args.push('-gravity')
 	    args.push(options.gravity)
-	    args.push('-interpolate')
-	    args.push('bicubic')
 	    args.push('-strip')
 	    args.push('-thumbnail')
 	    args.push(resizewidth + 'x' + resizeheight)
